@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alan Navarro | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow py-6">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Alan Navarro</h1>
+      <nav>
+        <a href="#projects" class="px-4 hover:text-blue-500">Projects</a>
+        <a href="#about" class="px-4 hover:text-blue-500">About</a>
+        <a href="#contact" class="px-4 hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-r from-blue-400 to-purple-500 text-white">
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Alan Navarro</h2>
+    <p class="text-lg max-w-xl mx-auto">I design and build websites and apps. Here's some of my work.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mx-auto px-6 py-20">
+    <h3 class="text-3xl font-bold mb-10 text-center">Projects</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Project Card -->
+      <div class="bg-white shadow rounded overflow-hidden hover:scale-105 transition-transform">
+        <img src="project1-screenshot.png" alt="Project 1" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="font-bold text-xl mb-2">Project Name</h4>
+          <p class="text-gray-600 mb-4">Short description of what you did, tech used, outcome.</p>
+          <a href="https://live-site.vercel.app" target="_blank" class="text-blue-500 hover:underline">View Live</a>
+        </div>
+      </div>
+
+      <!-- Repeat cards for more projects -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-6 max-w-3xl text-center">
+      <h3 class="text-3xl font-bold mb-6">About Me</h3>
+      <p>I’m a solo web developer and designer. I enjoy turning ideas into functional, elegant digital experiences. I work mostly with React, TailwindCSS, and modern web tools.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto px-6 py-20 text-center">
+    <h3 class="text-3xl font-bold mb-6">Contact</h3>
+    <p class="mb-6">You can reach me at:</p>
+    <p class="text-blue-500 font-bold">alan@example.com</p>
+  </section>
+
+  <footer class="bg-white py-6 text-center text-gray-500">
+    © 2025 Alan Navarro
+  </footer>
+
+</body>
+</html>
+
